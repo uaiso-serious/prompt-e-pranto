@@ -1,0 +1,71 @@
+## Verso 1
+
+Abri o código logo cedo pra entender
+Por que mudar uma tela faz tudo tremer
+Um método distante começa a gritar
+E uma classe esquecida resolve quebrar
+Cada ajuste gera mais complexidade
+Dependência em toda a cidade
+Se um serviço falha, ninguém fica em pé
+E o deploy vira teste de fé
+
+## Pré-Refrão
+
+Eu só queria evoluir
+Mas algo me prende aqui
+
+## Refrão
+
+Acoplamento demais
+Difícil o código evoluir
+Se muda um ponto, muda o sistema inteiro
+E o prazo vai embora ligeiro
+Acoplamento demais
+Difícil manter a paz
+Vamos separar o que precisa existir
+Pra arquitetura conseguir respirar
+
+## Verso 2
+
+Interfaces esquecidas pelo corredor
+Implementações misturando regra e controlador
+O banco de dados decide o que fazer
+E o domínio já não sabe mais quem quer ser
+A cada sprint a conta vem cobrar
+Os atalhos que escolhemos tomar
+Mas refatorar também faz parte da missão
+Pra recuperar a evolução
+
+## Pré-Refrão
+
+Se cada módulo cuidar do seu lugar
+Fica mais fácil continuar
+
+## Refrão
+
+Menos acoplamento faz
+O time avançar muito mais
+Cada componente livre para evoluir
+Sem medo do sistema explodir
+Menos acoplamento faz
+A manutenção ficar capaz
+De transformar requisito em solução
+Sem causar outra interrupção
+
+## Ponte
+
+Coesão alta, dependência sob controle
+Contrato claro em cada componente
+Quando o design é consciente
+O futuro fica mais presente
+
+## Refrão Final
+
+Acoplamento jamais
+Além do que o sistema traz
+Arquitetura é um equilíbrio a construir
+Pra inovação poder surgir
+Menos acoplamento faz
+O código durar muito mais
+E toda mudança deixa de ser um furacão
+Virando apenas evolução 🎸
