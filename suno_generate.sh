@@ -16,8 +16,11 @@ TITLE="${TITLE//$'\"'/\\\"}"
 
 #.env file with
 # TOKEN=123
-# CALLBACK_URL=https://webhook.site/b124e003-45b7-419e-a4d7-d8d2e233edbb
 source .env
+export TOKEN_WH=$(curl -s -X POST https://webhook.site/token | jq .uuid -r)
+CALLBACK_URL="https://webhook.site/${TOKEN_WH}"
+
+./whtmp/whcli.sh &
 
 curl --request POST \
   --url https://api.sunoapi.org/api/v1/generate \

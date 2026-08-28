@@ -1,4 +1,5 @@
 #!/bin/bash
+cd "$(dirname "$0")" || exit 1
 rm -f request_content.json
 touch running
 docker run -d --rm \
@@ -6,7 +7,7 @@ docker run -d --rm \
   -v "${PWD}":/usr/src/app/whtmp \
   webhooksite/cli \
   -- whcli exec \
-  --token='123' \
+  --token="${TOKEN_WH}" \
   --query 'content:"complete"' \
   --command='./whtmp/wh_suno.sh '\''$request.content$'\'''
 while [ -f running ]; do
