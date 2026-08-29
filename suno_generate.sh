@@ -3,6 +3,7 @@
 #exemplo ./suno_generate.sh nao_e_sobre_tecnologia/lado-b/bando-de-pogueiro
 
 export MUSIC=$1
+export VERSAO=vTMP
 
 PROMPT=$(cat "${MUSIC}/LETRA.suno")
 PROMPT="${PROMPT//$'\n'/ }"

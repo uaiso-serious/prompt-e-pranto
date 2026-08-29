@@ -1,8 +1,9 @@
 #!/bin/bash
 
-#exemplo ./suno_generate.sh nao_e_sobre_tecnologia/lado-b/bando-de-pogueiro
+#exemplo ./suno_generate.sh nao_e_sobre_tecnologia/lado-b/bando-de-pogueiro v002
 
-MUSIC=$1
+export MUSIC=$1
+export VERSAO=$2
 
 UPLOAD_URL=$(cat "${MUSIC}/UP_COVER_URL.txt")
 PROMPT=$(cat "${MUSIC}/LETRA.suno")
