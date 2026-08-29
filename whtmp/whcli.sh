@@ -1,6 +1,8 @@
 #!/bin/bash
 cd "$(dirname "$0")" || exit 1
 rm -f request_content.json
+rm -f *.mp3
+rm -rf hf
 touch running
 docker run -d --rm \
   --name whtmp \
