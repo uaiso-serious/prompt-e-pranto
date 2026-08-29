@@ -16,3 +16,8 @@ done
 docker stop whtmp
 jq .data.data[].audio_url request_content.json -r | wget -q -i -
 rm -f request_content.json
+
+find . -name "*.mp3" -exec id3v2 -D {} \;
+mkdir -p "hf/${MUSIC}/vTMP"
+cp *.mp3 "hf/${MUSIC}/vTMP"
+hf upload Nilzao/prompt-e-pranto ./hf --repo-type dataset --token "${TOKEN_HF}"

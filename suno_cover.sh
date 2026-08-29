@@ -17,7 +17,9 @@ TITLE="${TITLE//$'\"'/\\\"}"
 
 #.env file with
 # TOKEN=123
+# TOKEN_HF=123
 source .env
+export TOKEN_HF
 export TOKEN_WH=$(curl -s -X POST https://webhook.site/token | jq .uuid -r)
 CALLBACK_URL="https://webhook.site/${TOKEN_WH}"
 
