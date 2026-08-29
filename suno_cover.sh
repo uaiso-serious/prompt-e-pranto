@@ -23,8 +23,6 @@ export TOKEN_HF
 export TOKEN_WH=$(curl -s -X POST https://webhook.site/token | jq .uuid -r)
 CALLBACK_URL="https://webhook.site/${TOKEN_WH}"
 
-./whtmp/whcli.sh &
-
 curl --request POST \
   --url https://api.sunoapi.org/api/v1/generate/upload-cover \
   --header "Authorization: Bearer ${TOKEN}" \
@@ -41,3 +39,5 @@ curl --request POST \
   \"title\": \"${TITLE}\"
 }
 "
+
+./whtmp/whcli.sh
