@@ -31,7 +31,7 @@ curl --request POST \
 {
   \"customMode\": true,
   \"instrumental\": false,
-  \"model\": \"V5_5\",
+  \"model\": \"V6\",
   \"callBackUrl\": \"${CALLBACK_URL}\",
   \"prompt\": \"${PROMPT}\",
   \"style\": \"${STYLE}\",
