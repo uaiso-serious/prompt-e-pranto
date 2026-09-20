@@ -1,1 +1,1 @@
-https://huggingface.co/datasets/Nilzao/prompt-e-pranto/resolve/main/nao_e_sobre_tecnologia/lado-b/barba-cinza/wellerman-guitar.mp3
+https://huggingface.co/datasets/Nilzao/prompt-e-pranto/resolve/main/nao_e_sobre_tecnologia/lado-b/barba-cinza/barba-cinza_gringo.mp3
